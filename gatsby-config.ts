@@ -3,7 +3,10 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Martin Meneghetti Personal Website`,
-    siteUrl: `https://www.yourdomain.tld`,
+    description: "Personal Website and Portfolio of Martin Meneghetti",
+    siteUrl: `https://martin-meneghetti.web.app/`,
+    image: "/me.webp",
+    siteLanguage: "en",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -29,22 +32,22 @@ const config: GatsbyConfig = {
       },
       __key: "images",
     },
-    {
-      resolve: `gatsby-omni-font-loader`,
-      options: {
-        enableListener: true,
-        preconnect: [
-          `https://fonts.googleapis.com`,
-          `https://fonts.gstatic.com`,
-        ],
-        web: [
-          {
-            name: `Open Sans`,
-            file: `https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap`,
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-omni-font-loader`,
+    //   options: {
+    //     enableListener: true,
+    //     preconnect: [
+    //       `https://fonts.googleapis.com`,
+    //       `https://fonts.gstatic.com`,
+    //     ],
+    //     web: [
+    //       {
+    //         name: `Poppins`,
+    //         file: `https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap`,
+    //       },
+    //     ],
+    //   },
+    // },
   ],
 };
 

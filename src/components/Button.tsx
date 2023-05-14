@@ -3,6 +3,7 @@ import React from "react";
 
 interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
+  href?: string;
 }
 
 function Button({ className, children, ...props }: ButtonProps) {
