@@ -52,14 +52,14 @@ function About() {
         </div>
         <div className="flex-1 flex justify-end">
           <StaticImage
-            src="../../images/me.webp"
+            src="../../images/portrait.webp"
             alt="portrait of Martin Meneghetti"
             className="h-80 w-80 rounded-sm object-cover"
           />
         </div>
       </div>
       <div className="mt-4 grid grid-cols-2 max-w-max gap-x-16 gap-y-2">
-        {skillsData.map(skill => (
+        {skillsData.map((skill) => (
           <div className="flex items-center" key={`skill-${skill}`}>
             <MdCheck className="text-primary mr-2 text-lg" />
             <span>{skill}</span>

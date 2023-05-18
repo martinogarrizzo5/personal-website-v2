@@ -3,6 +3,7 @@ import Button from "../Button";
 import { FiSend, FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { motion } from "framer-motion";
+import ButtonLink from "../ButtonLink";
 
 function Contact() {
   return (
@@ -20,13 +21,19 @@ function Contact() {
           is always open. Whether you have a question or just want to say hi,
           I’ll try my best to get back to you!
         </p>
-        <Button className="flex gap-4 items-center mx-auto mt-6 py-4 px-10">
+        <ButtonLink
+          className="flex gap-4 items-center mx-auto mt-6 py-4 px-10"
+          href="mailto:martinmeneghetti1@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Send an email to Martin and say hello!"
+        >
           <FiSend className="text-2xl" />
           <span className="text-2xl">Say Hello</span>
-        </Button>
+        </ButtonLink>
         <div className="mt-24 flex gap-16 items-center">
           <a
-            href="https://www.instagram.com/martinmeneghetti/"
+            href="mailto:martinmeneghetti1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"

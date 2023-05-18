@@ -18,7 +18,7 @@ function Projects() {
         <div className="h-1.5 bg-primary w-64 mb-16" />
       </motion.div>
       <div className="flex flex-col gap-24">
-        {projectsData.map(project => (
+        {projectsData.map((project) => (
           <Project key={`project-${project.id}`} {...project} />
         ))}
       </div>

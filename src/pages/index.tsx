@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Hero />
       <main className="pt-24 max-w-7xl mx-auto px-24">
         <About />
-        {/* <Work /> */}
+        <Work />
         <Projects />
         <Contact />
       </main>

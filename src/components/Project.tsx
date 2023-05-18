@@ -1,8 +1,10 @@
 import React from "react";
 import { RiAppleLine, RiGooglePlayLine } from "react-icons/ri";
+import { BsGlobe } from "react-icons/bs";
 import ButtonLink from "./ButtonLink";
 import { motion } from "framer-motion";
 import { ProjectData } from "../content/projects";
+import { BiCodeAlt, BiMessageAlt } from "react-icons/bi";
 
 function Project(props: ProjectData) {
   return (
@@ -41,6 +43,8 @@ function Project(props: ProjectData) {
               className="flex items-center gap-2 py-3 px-10"
               href={props.androidLink}
               aria-label="See the app on the Play Store"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <RiGooglePlayLine className="text-2xl" />
               <span>Android</span>
@@ -50,10 +54,36 @@ function Project(props: ProjectData) {
             <ButtonLink
               className="flex items-center gap-2 py-3 px-10"
               href={props.iosLink}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="See the app on the App Store"
             >
               <RiAppleLine className="text-2xl" />
               <span>IOS</span>
+            </ButtonLink>
+          )}
+          {props.webLink && (
+            <ButtonLink
+              className="flex items-center gap-2 py-3 px-10"
+              href={props.webLink}
+              aria-label="See the app on the App Store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsGlobe className="text-2xl" />
+              <span>Web</span>
+            </ButtonLink>
+          )}
+          {props.codeLink && (
+            <ButtonLink
+              className="flex items-center gap-2 py-3 px-10 border-2 border-white hover:bg-white hover:text-primary bg-transparent shadow-none"
+              href={props.codeLink}
+              aria-label="See the code on github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BiCodeAlt className="text-2xl" />
+              <span>Code</span>
             </ButtonLink>
           )}
         </div>

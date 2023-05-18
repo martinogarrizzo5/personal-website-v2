@@ -4,6 +4,7 @@ import { FiSend } from "react-icons/fi";
 import { Typewriter } from "react-simple-typewriter";
 import Nav from "../Nav";
 import { motion } from "framer-motion";
+import ButtonLink from "../ButtonLink";
 
 function Hero() {
   return (
@@ -30,10 +31,16 @@ function Hero() {
           Specialized in building clean and custom digital experiences that
           prioritize user-centered design and intuitive interfaces
         </h2>
-        <Button className="flex gap-4 items-center mx-auto mt-6 py-4 px-10">
+        <ButtonLink
+          className="flex gap-4 items-center mx-auto mt-6 py-4 px-10 w-max"
+          href="mailto:martinmeneghetti1@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contact Martin Meneghetti by email"
+        >
           <FiSend className="text-2xl" />
           <span className="text-2xl">Contact Me</span>
-        </Button>
+        </ButtonLink>
       </motion.div>
       <motion.div
         className="text-white mt-8 mb-12 text-center"
