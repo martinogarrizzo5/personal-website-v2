@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Nav() {
   return (
     <motion.nav
-      className="flex gap-16 mx-auto text-white no-flicker"
+      className="hidden sm:flex gap-16 mx-auto text-white no-flicker"
       transition={{ duration: 0.8 }}
       animate={{ y: 0, opacity: 1 }}
       initial={{ y: -50, opacity: 0 }}

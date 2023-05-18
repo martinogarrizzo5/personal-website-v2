@@ -9,7 +9,7 @@ import { BiCodeAlt, BiMessageAlt } from "react-icons/bi";
 function Project(props: ProjectData) {
   return (
     <motion.div
-      className="flex items-center gap-12 no-flicker"
+      className="flex items-center gap-12 no-flicker flex-col lg:flex-row"
       viewport={{ amount: 0.5, once: true }}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ function Project(props: ProjectData) {
         <img
           src={props.imagePath}
           alt={props.alt}
-          className="border-black border-4 rounded-xl object-cover h-[380px] w-[180px]"
+          className="border-black border-4 rounded-xl object-cover h-[285px] w-[135px] sm:h-[380px] sm:w-[180px]"
           loading="lazy"
           width={180}
           height={380}
@@ -30,17 +30,17 @@ function Project(props: ProjectData) {
         <h3 className="text-2xl font-semibold text-white mb-2">
           {props.title}
         </h3>
-        <div>{props.description}</div>
+        <div className="text-left">{props.description}</div>
         <div className="flex mt-6 gap-4 items-center">
           <span>Technologies I used: </span>
           {props.technologies.map((Icon, index) => (
             <Icon key={`icon-${index}`} className="text-3xl text-white" />
           ))}
         </div>
-        <div className="flex mt-8 gap-6">
+        <div className="flex flex-col sm:flex-row mt-8 gap-6">
           {props.androidLink && (
             <ButtonLink
-              className="flex items-center gap-2 py-3 px-10"
+              className="flex items-center justify-center sm:justify-start gap-2 py-3 px-10"
               href={props.androidLink}
               aria-label="See the app on the Play Store"
               target="_blank"
@@ -52,7 +52,7 @@ function Project(props: ProjectData) {
           )}
           {props.iosLink && (
             <ButtonLink
-              className="flex items-center gap-2 py-3 px-10"
+              className="flex items-center justify-center sm:justify-start gap-2 py-3 px-10"
               href={props.iosLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +64,7 @@ function Project(props: ProjectData) {
           )}
           {props.webLink && (
             <ButtonLink
-              className="flex items-center gap-2 py-3 px-10"
+              className="flex items-center justify-center sm:justify-start gap-2 py-3 px-10"
               href={props.webLink}
               aria-label="See the app on the App Store"
               target="_blank"
@@ -76,7 +76,7 @@ function Project(props: ProjectData) {
           )}
           {props.codeLink && (
             <ButtonLink
-              className="flex items-center gap-2 py-3 px-10 border-2 border-white hover:bg-white hover:text-primary bg-transparent shadow-none"
+              className="flex items-center justify-center sm:justify-start gap-2 py-3 px-10 border-2 border-white hover:bg-white hover:text-primary bg-transparent shadow-none"
               href={props.codeLink}
               aria-label="See the code on github"
               target="_blank"

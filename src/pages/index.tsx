@@ -19,9 +19,9 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <MotionConfig reducedMotion="user">
       <Hero />
-      <main className="pt-24 max-w-7xl mx-auto px-24">
+      <main className="pt-24 max-w-7xl mx-auto lg:px-24 sm:px-12 px-6">
         <About />
-        <Work />
+        {/* <Work /> */}
         <Projects />
         <Contact />
       </main>

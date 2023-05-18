@@ -1,5 +1,10 @@
 import React from "react";
-import { TbBrandFlutter, TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
+import {
+  TbBrandFlutter,
+  TbBrandNextjs,
+  TbBrandTailwind,
+  TbBrandTypescript,
+} from "react-icons/tb";
 import { FaPhp, FaReact } from "react-icons/fa";
 import spiImg from "../images/spi-preview.webp";
 import castelImg from "../images/castelturismo-preview.webp";
@@ -13,13 +18,13 @@ const data = [
     title: "SPI Lombardia",
     description: (
       <p>
-        Lorem ipsum dolor sit amet consectetur. Quam vulputate ante ut elit diam
-        nunc ut hendrerit. A lectus aliquam volutpat magna aliquet cras. Fusce
-        quam cras platea sapien leo maecenas amet. Sollicitudin nibh dictum at
-        id id sagittis. Lectus pulvinar at sagittis turpis sollicitudin blandit.
-        <br /> <br />
-        Vestibulum pellentesque nunc vitae at nec volutpat massa almen it dict.
-        Nisi pulvinar in sit dictum ut.
+        Applicazione designata alla digitalizzazione di contenuti e notizie per
+        i pensionati. Grazie a questa app il sindacato di SPI CGIL può
+        comunicare in modo più efficace con i propri iscritti e renderli ancor
+        più partecipi nel mondo digitale. In questo progetto mi sono occupato di
+        realizzare l'app per Android e IOS usando Flutter incentrandomi
+        sull'esperienza di navigazione tra le varie sezioni e la gestione dei
+        contenuti.
       </p>
     ),
     technologies: [TbBrandFlutter],
@@ -36,16 +41,16 @@ const data = [
     title: "Castelturismo",
     description: (
       <p>
-        Lorem ipsum dolor sit amet consectetur. Quam vulputate ante ut elit diam
-        nunc ut hendrerit. A lectus aliquam volutpat magna aliquet cras. Fusce
-        quam cras platea sapien leo maecenas amet. Sollicitudin nibh dictum at
-        id id sagittis. Lectus pulvinar at sagittis turpis sollicitudin blandit.
-        <br /> <br />
-        Vestibulum pellentesque nunc vitae at nec volutpat massa almen it dict.
-        Nisi pulvinar in sit dictum ut.
+        Partito come progetto tra scuole superiori, Castelturismo è un'app che
+        favorisce la diffusione della storia di Castelfranco Veneto mostrandone
+        i monumenti storici e i percorsi che si possono fare attorno essi. In
+        questo progetto ho coordinato le attività di sviluppo del team e in
+        particolare ho seguito gli sviluppi dell'app mobile con Flutter e del
+        backoffice disegnando un'interfaccia custom adatta alle esigenze della
+        proloco.
       </p>
     ),
-    technologies: [FaPhp, FaReact, TbBrandFlutter],
+    technologies: [FaPhp, FaReact, TbBrandTypescript, TbBrandFlutter],
     imagePath: castelImg,
     alt: "Castelfranco Veneto tourism app",
     androidLink:
@@ -60,16 +65,21 @@ const data = [
     title: "Barsanti App",
     description: (
       <p>
-        Lorem ipsum dolor sit amet consectetur. Quam vulputate ante ut elit diam
-        nunc ut hendrerit. A lectus aliquam volutpat magna aliquet cras. Fusce
-        quam cras platea sapien leo maecenas amet. Sollicitudin nibh dictum at
-        id id sagittis. Lectus pulvinar at sagittis turpis sollicitudin blandit.
-        <br /> <br />
-        Vestibulum pellentesque nunc vitae at nec volutpat massa almen it dict.
-        Nisi pulvinar in sit dictum ut.
+        A seguito del progetto di Castelturismo ho gestito il progetto dell'app
+        della mia scuola creando un' interfaccia pulita ed efficace per
+        racchiudere i contenuti relativi le attività di orientamento
+        nell'ambiente scolastico. Ho gestito gli sviluppi di backend, backoffice
+        e app mobile utilizzando tecnologie moderne con approcci innovativi per
+        garantire un progetto scalabile per le future implementazioni mirate a
+        coinvolgere sempre di più gli studenti dell'istituto.
       </p>
     ),
-    technologies: [TbBrandNextjs, TbBrandTailwind, TbBrandFlutter],
+    technologies: [
+      TbBrandNextjs,
+      TbBrandTypescript,
+      TbBrandTailwind,
+      TbBrandFlutter,
+    ],
     imagePath: barsantiImg,
     alt: "ITT Eugenio Barsanti school app",
     androidLink: "",
@@ -83,16 +93,14 @@ const data = [
     title: "The Night Dreamer Store",
     description: (
       <p>
-        Lorem ipsum dolor sit amet consectetur. Quam vulputate ante ut elit diam
-        nunc ut hendrerit. A lectus aliquam volutpat magna aliquet cras. Fusce
-        quam cras platea sapien leo maecenas amet. Sollicitudin nibh dictum at
-        id id sagittis. Lectus pulvinar at sagittis turpis sollicitudin blandit.
-        <br /> <br />
-        Vestibulum pellentesque nunc vitae at nec volutpat massa almen it dict.
-        Nisi pulvinar in sit dictum ut.
+        The Night Dreamer, uno store pensato per essere una web app che sfrutta
+        al meglio le potenzialità del server side rendering. In questo progetto
+        personale ho utilizzato NextJS per creare le funzionalità vitali di un
+        e-commerce avvolgendole in un'interfaccia dai colori anticonformisti e
+        accattivanti.
       </p>
     ),
-    technologies: [TbBrandNextjs, TbBrandTailwind],
+    technologies: [TbBrandNextjs, TbBrandTypescript, TbBrandTailwind],
     imagePath: theNightDreamerImg,
     alt: "Landing page of the store",
     androidLink: null,

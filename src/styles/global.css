@@ -16,6 +16,10 @@ body {
   :root {
     --primary: theme("colors.primary");
   }
+
+  html {
+    @apply text-[93.75%];
+  }
 }
 
 @layer components {
@@ -29,7 +33,7 @@ body {
   }
 
   .section {
-    @apply py-40 flex flex-col justify-center;
+    @apply py-20 sm:py-40 flex flex-col justify-center;
   }
 }
 
@@ -71,5 +75,12 @@ body {
   100% {
     bottom: 20%;
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mouse-scroll {
+    width: 1.575rem;
+    height: 3rem;
   }
 }

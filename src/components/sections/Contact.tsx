@@ -15,23 +15,24 @@ function Contact() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-center flex flex-col items-center"
       >
-        <h2 className="text-white text-5xl font-bold mb-4">Get In Touch!</h2>
-        <p className="font-medium text-xl max-w-2xl">
-          Although I’m not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you!
+        <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+          Get In Touch!
+        </h2>
+        <p className="font-medium text-lg sm:text-xl max-w-2xl">
+          Although I'm not actively looking, my inbox is always open. Feel free
+          to drop me a line or say hello—I'll make sure to respond!
         </p>
         <ButtonLink
-          className="flex gap-4 items-center mx-auto mt-6 py-4 px-10"
+          className="flex gap-4 items-center mx-auto mt-6 py-3 sm:py-4 px-8 sm:px-10"
           href="mailto:martinmeneghetti1@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Send an email to Martin and say hello!"
         >
-          <FiSend className="text-2xl" />
-          <span className="text-2xl">Say Hello</span>
+          <FiSend className="text-xl md:text-2xl" />
+          <span className="text-xl md:text-2xl">Say Hello</span>
         </ButtonLink>
-        <div className="mt-24 flex gap-16 items-center">
+        <div className="mt-24 flex gap-8 sm:gap-16 items-center">
           <a
             href="mailto:martinmeneghetti1@gmail.com"
             target="_blank"
@@ -42,7 +43,7 @@ function Contact() {
             <MdOutlineEmail />
           </a>
           <a
-            href="https://www.linkedin.com/in/martinmeneghetti/"
+            href="https://www.instagram.com/martin_meneghetti_/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
@@ -51,7 +52,7 @@ function Contact() {
             <FiInstagram />
           </a>
           <a
-            href="https://www.instagram.com/martinmeneghetti/"
+            href="https://github.com/martinogarrizzo5"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
@@ -60,7 +61,7 @@ function Contact() {
             <FiGithub />
           </a>
           <a
-            href="https://www.instagram.com/martinmeneghetti/"
+            href="https://www.linkedin.com/in/martin-meneghetti-ba6206209/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
