@@ -19,7 +19,7 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/portfolio.png",
       },
     },
     "gatsby-plugin-sharp",
@@ -32,22 +32,6 @@ const config: GatsbyConfig = {
       },
       __key: "images",
     },
-    // {
-    //   resolve: `gatsby-omni-font-loader`,
-    //   options: {
-    //     enableListener: true,
-    //     preconnect: [
-    //       `https://fonts.googleapis.com`,
-    //       `https://fonts.gstatic.com`,
-    //     ],
-    //     web: [
-    //       {
-    //         name: `Poppins`,
-    //         file: `https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap`,
-    //       },
-    //     ],
-    //   },
-    // },
   ],
 };
 

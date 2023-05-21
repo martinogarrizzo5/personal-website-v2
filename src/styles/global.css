@@ -35,6 +35,10 @@ body {
   .section {
     @apply py-20 sm:py-40 flex flex-col justify-center;
   }
+
+  .keyword {
+    @apply font-semibold text-primaryLight;
+  }
 }
 
 @layer utilities {

@@ -23,31 +23,20 @@ function About() {
           <p className="mt-4">
             Hello, my name is Martin, and I'm a full-stack developer, designer,
             and fitness enthusiast! My passion for{" "}
-            <span className="font-semibold text-primaryLight">
-              frontend development
-            </span>{" "}
-            started when I built my first website in school in December 2019.
-            Since then, I've dedicated myself to staying on the cutting edge of
-            technology and mastering the{" "}
-            <span className="font-semibold text-primaryLight">
-              latest tools and frameworks
-            </span>{" "}
-            like React and Flutter.
+            <span className="keyword">frontend development</span> started when I
+            built my first website in school in December 2019. Since then, I've
+            dedicated myself to staying on the cutting edge of technology and
+            mastering the{" "}
+            <span className="keyword">latest tools and frameworks</span> like
+            React and Flutter.
             <br /> <br />
             Whether it's designing a{" "}
-            <span className="font-semibold text-primaryLight">
-              clean, user-friendly interface
-            </span>{" "}
-            or developing complex backend features, I'm always looking for{" "}
-            <span className="font-semibold text-primaryLight">
-              innovative solutions
-            </span>{" "}
-            to real-world problems. If you're looking for a developer who can{" "}
-            <span className="font-semibold text-primaryLight">
-              bring your ideas to life
-            </span>{" "}
-            with creativity and expertise, let's work together to make it
-            happen!
+            <span className="keyword">clean, user-friendly interface</span> or
+            developing complex backend features, I'm always looking for{" "}
+            <span className="keyword">innovative solutions</span> to real-world
+            problems. If you're looking for a developer who can{" "}
+            <span className="keyword">bring your ideas to life</span> with
+            creativity and expertise, let's work together to make it happen!
             <br /> <br />
             Here are a few technologies I’ve been working with recently:
           </p>

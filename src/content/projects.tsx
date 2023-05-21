@@ -25,12 +25,17 @@ const data = [
         realizzare l'app per Android e IOS usando Flutter incentrandomi
         sull'esperienza di navigazione tra le varie sezioni e la gestione dei
         contenuti. */}
-        An innovative app designed to digitize content and news for retirees.
-        With this app, the SPI CGIL union can now engage with its members more
+        An innovative app designed to{" "}
+        <span className="keyword">digitize content and news for retirees</span>.
+        With this app, the <span className="keyword">SPI CGIL</span> union can
+        now <span className="keyword">engage with its members</span> more
         effectively, bringing them into the digital world. In this project, my
-        focus was on creating a captivating Android and iOS app using Flutter. I
-        dedicated my efforts to ensuring seamless navigation between different
-        sections and efficient content management.
+        focus was on creating a captivating
+        <span className="keyword">Android and iOS app </span>using Flutter. I
+        dedicated my efforts to ensuring
+        <span className="keyword"> seamless navigation</span> between different
+        sections and{" "}
+        <span className="keyword"> efficient content management.</span>
       </p>
     ),
     technologies: [TbBrandFlutter],
@@ -55,12 +60,16 @@ const data = [
         backoffice disegnando un'interfaccia custom adatta alle esigenze della
         proloco. */}
         Born as a collaborative project among high schools, Castelturismo has
-        evolved into an app that promotes the rich history of Castelfranco
-        Veneto by showcasing its historical monuments and the fascinating paths
-        that surround them. In this endeavor, I took charge of leading the
-        development team and specifically focused on the progress of the mobile
-        app using Flutter. Additionally, I designed a customized interface for
-        the back office, tailored to the specific needs of the local tourism
+        evolved into an app that promotes the rich{" "}
+        <span className="keyword">history of Castelfranco Veneto</span> by
+        showcasing its <span className="keyword">historical monuments</span> and
+        the fascinating paths that surround them. In this endeavor, I took
+        charge of <span className="keyword">leading the development team</span>{" "}
+        and specifically focused on the progress of the{" "}
+        <span className="keyword">mobile app</span> using Flutter. Additionally,
+        I designed a <span className="keyword">customized interface</span> for
+        the back office, tailored to the{" "}
+        <span className="keyword">specific needs</span> of the local tourism
         association.
       </p>
     ),
@@ -88,13 +97,18 @@ const data = [
         coinvolgere sempre di più gli studenti dell'istituto. */}
         Following the success of the Castelturismo project, I took on the
         responsibility of managing the app project for my school. My goal was to
-        create a clean and effective interface that would encapsulate all the
-        relevant content related to orientation activities within the school
-        environment. Throughout this endeavor, I oversaw the development of the
-        backend, back office, and mobile app, utilizing modern technologies and
-        innovative approaches. My aim was to ensure a scalable project that
-        could accommodate future targeted implementations, further engaging the
-        students of the institute.
+        create a <span className="keyword">clean</span> and{" "}
+        <span className="keyword">effective interface</span> that would
+        encapsulate all the relevant content related to{" "}
+        <span className="keyword">orientation activities</span> within the
+        school environment. Throughout this endeavor, I{" "}
+        <span className="keyword">oversaw the development</span> of the backend,
+        back office, and mobile app, utilizing{" "}
+        <span className="keyword">modern technologies</span> and{" "}
+        <span className="keyword">innovative approaches</span>. My aim was to
+        ensure a <span className="keyword">scalable</span> project that could
+        accommodate future targeted implementations, further{" "}
+        <span className="keyword">engaging the students</span> of the institute.
       </p>
     ),
     technologies: [
@@ -116,11 +130,20 @@ const data = [
     title: "The Night Dreamer Store",
     description: (
       <p>
-        The Night Dreamer, uno store pensato per essere una web app che sfrutta
+        {/* The Night Dreamer, uno store pensato per essere una web app che sfrutta
         al meglio le potenzialità del server side rendering. In questo progetto
         personale ho utilizzato NextJS per creare le funzionalità vitali di un
         e-commerce avvolgendole in un'interfaccia dai colori anticonformisti e
-        accattivanti.
+        accattivanti. */}
+        Introducing The Night Dreamer, an{" "}
+        <span className="keyword">online store</span> designed to be a web app
+        that harnesses the full potential of{" "}
+        <span className="keyword">server-side rendering</span>. In this personal
+        project, I utilized NextJS to create the essential functionalities of an
+        e-commerce platform , enveloping them within a visually{" "}
+        <span className="keyword">captivating interface</span> adorned with{" "}
+        <span className="keyword">nonconformist</span> and{" "}
+        <span className="keyword">eye-catching</span> colors.
       </p>
     ),
     technologies: [TbBrandNextjs, TbBrandTypescript, TbBrandTailwind],
