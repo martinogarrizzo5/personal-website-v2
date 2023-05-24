@@ -51,7 +51,7 @@ function About() {
         </div>
         <div className="flex-1 flex justify-end">
           <StaticImage
-            src="../../images/portrait.webp"
+            src="../../images/martin-meneghetti.webp"
             alt="portrait of Martin Meneghetti"
             className="h-60 w-60 sm:h-80 sm:w-80 rounded-sm object-cover"
           />
