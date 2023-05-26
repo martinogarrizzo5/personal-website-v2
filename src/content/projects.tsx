@@ -8,7 +8,7 @@ import {
 import { FaPhp, FaReact } from "react-icons/fa";
 import spiImg from "../images/spi-preview.webp";
 import castelImg from "../images/castelturismo-preview.webp";
-import barsantiImg from "../images/barsanti-preview.webp";
+import barsantiImg from "../images/barsanti-app-preview.webp";
 import theNightDreamerImg from "../images/the-night-dreamer-preview.webp";
 
 const data = [
