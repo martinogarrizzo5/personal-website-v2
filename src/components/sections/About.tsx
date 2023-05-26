@@ -41,7 +41,7 @@ function About() {
             Here are a few technologies I’ve been working with recently:
           </p>
           <div className="mt-4 grid grid-cols-2 max-w-max gap-x-16 gap-y-2">
-            {skillsData.map(skill => (
+            {skillsData.map((skill) => (
               <div className="flex items-center" key={`skill-${skill}`}>
                 <MdCheck className="text-primary mr-2 text-lg" />
                 <span>{skill}</span>
@@ -53,7 +53,7 @@ function About() {
           <StaticImage
             src="../../images/martin-meneghetti.webp"
             alt="portrait of Martin Meneghetti"
-            className="h-60 w-60 sm:h-80 sm:w-80 rounded-sm object-cover"
+            className="h-60 w-60 sm:h-80 sm:w-80 rounded-md object-cover"
           />
         </div>
       </div>

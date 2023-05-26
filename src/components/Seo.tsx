@@ -56,11 +56,19 @@ const SEO: React.FC<SeoProps> = ({
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta
+        name="keywords"
+        content="personal website,portfolio,fullstack developer,mobile app developer,freelancer"
+      />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
+      <meta
+        name="twitter:image:alt"
+        content="Portrait Of Martin Meneghetti"
+      ></meta>
       {children}
     </>
   );

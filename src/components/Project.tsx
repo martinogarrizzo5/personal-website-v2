@@ -15,11 +15,11 @@ function Project(props: ProjectData) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <div className="shrink-0 border-white border-4 rounded-xl">
+      <div className="shrink-0 border-white border-4 rounded-2xl">
         <img
           src={props.imagePath}
           alt={props.alt}
-          className="border-black border-4 rounded-xl object-cover h-[285px] w-[135px] sm:h-[380px] sm:w-[180px]"
+          className="border-black border-4 rounded-2xl object-cover h-[285px] w-[135px] sm:h-[380px] sm:w-[180px]"
           loading="lazy"
           width={180}
           height={380}
