@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "martin-meneghetti",
+    "site": "martinmeneghetti",
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [

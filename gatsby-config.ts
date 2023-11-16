@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `Martin Meneghetti Personal Website`,
     description:
       "Personal website and portfolio where i showcase my work and my experience in the web and mobile app development industry.",
-    siteUrl: `https://martin-meneghetti.web.app/`,
+    siteUrl: `https://martinmeneghetti.web.app/`,
     image: "/martin-meneghetti.webp",
     siteLanguage: "en",
   },
