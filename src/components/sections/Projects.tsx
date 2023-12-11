@@ -7,7 +7,7 @@ function Projects() {
   return (
     <motion.section id="projects" className="section">
       <motion.div
-        viewport={{ amount: 1, once: true }}
+        viewport={{ amount: "some", once: true }}
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}

@@ -10,7 +10,7 @@ function Project(props: ProjectData) {
   return (
     <motion.div
       className="flex items-center gap-12 no-flicker flex-col lg:flex-row"
-      viewport={{ amount: 0.5, once: true }}
+      viewport={{ amount: 0.4, once: true }}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}

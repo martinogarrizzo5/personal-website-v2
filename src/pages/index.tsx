@@ -32,4 +32,11 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <SEO></SEO>;
+export const Head: HeadFC = () => (
+  <SEO>
+    <meta
+      name="google-site-verification"
+      content="Z3g7zvbzCDCKUTqyPN-NkDu889Oumj7xO1RKxBCxEVo"
+    />
+  </SEO>
+);

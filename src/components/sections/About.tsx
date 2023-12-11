@@ -12,7 +12,7 @@ function About() {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      viewport={{ amount: 0.5, once: true }}
+      viewport={{ amount: 0.4, once: true }}
     >
       <div className="flex gap-12 sm:gap-24 items-center flex-col lg:flex-row">
         <div className="flex-1">
@@ -41,7 +41,7 @@ function About() {
             Here are a few technologies I’ve been working with recently:
           </p>
           <div className="mt-4 grid grid-cols-2 max-w-max gap-x-16 gap-y-2">
-            {skillsData.map((skill) => (
+            {skillsData.map(skill => (
               <div className="flex items-center" key={`skill-${skill}`}>
                 <MdCheck className="text-primary mr-2 text-lg" />
                 <span>{skill}</span>

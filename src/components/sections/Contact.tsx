@@ -11,7 +11,7 @@ function Contact() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ amount: 0.5, once: true }}
+        viewport={{ amount: 0.4, once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-center flex flex-col items-center"
       >
